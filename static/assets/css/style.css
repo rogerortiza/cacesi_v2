@@ -157,8 +157,9 @@ audio {
 	height: auto;
 	border: none;
 }
-.bck-semi {
-	background-color: black;
+.custom-text {
+	font-size: 18px;
+	line-height: 35px;
 }
 .page-top-height {
 	height: 80px;
@@ -175,7 +176,10 @@ audio {
 }
 .pattern {
 	background-color: rgba(0,0,0,.5);
-	background-image: url(../images/pattern.png);
+	background-image: url(../../images/section-content/extintores.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .white-bg {
 	background-color: #ffffff;

@@ -93,10 +93,10 @@
 							<h2 class="top-heading-1">
 								    CACESI
 							</h2>
-							<h3 class="top-heading-3 wow bounceInLeft  center animated" data-wow-delay=".5s">
+							<h3 class="top-heading-3 wow bounceInLeft  center animated" data-wow-delay=".7s">
 								Los desastres suelen presentarse <span>sin aviso y rápidamente</span>.
 							</h3>
-							<h3 class="top-heading-4 wow bounceInRight  center animated" data-wow-delay=".6s">
+							<h3 class="top-heading-4 wow bounceInRight  center animated" data-wow-delay=".8s">
 								La mejor manera de proteger el capital de su empresa es tener <br> personal preparado para un <span>potencial desastre</span>.
 							</h3>
 						</div><!-- /.top-headings -->
@@ -202,7 +202,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="about-us-thumb">
-							<img src="images/section-content/about-us.jpg" alt="About Us Image">
+							<img src="{% static 'images/section-content/hands.jpg' %}" alt="About Us CACESI">
 						</div><!-- /.about-us-thumb -->
 					</div><!-- /.col-md-6 -->
 
@@ -210,7 +210,7 @@
 						<h3 class="content-title">
 							El compromiso central de CACESI
 						</h3>
-						<p>
+						<p class="custom-text">
 							<strong>es la satisfacción de las necesidades y expectativas del cliente, ofreciendo una alta gama de productos y servicios que cubran el cumplimiento de las normas oficiales mexicana en el rubro de la seguridad industrial.</strong>
 						</p>
 					</div><!-- /.col-md-6 -->
@@ -260,13 +260,13 @@
 	<section id="video-section">
 		<div class="video-section parallax-style">
 			<div class="pattern">
-				<h3 class="video-title">Play Video</h3>
+				<h3 class="video-title">Ver Video</h3>
 				<p class="play-video">
 					<a href="http://player.vimeo.com/video/21969942" class="boxer button small play-btn wow rollIn animated" title="Our Video">
-						<img class="play-now" src="assets/images/video-play.png" alt="Play Video">
+						<img class="play-now" src="{% static 'images/section-content/play.png' %}" width="150" alt="Play Video">
 					</a>
 				</p><!-- /.play-video -->
-				<h3 class="video-title">Learn More</h3>
+				<h3 class="video-title">Conoce Más</h3>
 			</div><!-- /.pattern -->
 		</div><!-- /.video-section -->
 		<div class="video-box" id="video-box">
@@ -390,7 +390,7 @@
 											CFO
 										</p>
 										<p>
-											Jefa Administrativa de Finanzas.
+											Jefa Administrativa y de Finanzas.
 										</p>
 										<div class="member-social-link">
 											<a href="#" class="twitter-btn"><i class="fa fa-twitter"></i></a>
@@ -436,7 +436,7 @@
 						</div>
 						<div class="progress thin wow fadeInUp animated" data-wow-delay=".3s">
 							<div class="progress-bar light-red-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" data-progress-value="60%" aria-valuemax="100">
-								<span class="progress-text">Incendios</span>
+								<span class="progress-text">Control de Incendios</span>
 								<span class="progress-percent"> 60% </span>
 							</div>
 						</div>
@@ -445,19 +445,19 @@
 					<div class="col-md-6">
 						<div class="progress thin wow fadeInUp animated" data-wow-delay=".4s">
 							<div class="progress-bar light-green-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" data-progress-value="87%" aria-valuemax="100">
-								<span class="progress-text">HTML5/CSS3</span>
+								<span class="progress-text">Primeros Auxilios</span>
 								<span class="progress-percent"> 87% </span>
 							</div>
 						</div>
 						<div class="progress thin wow fadeInUp animated" data-wow-delay=".5s">
 							<div class="progress-bar light-pink-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" data-progress-value="83%" aria-valuemax="100">
-								<span class="progress-text">WordPress</span>
+								<span class="progress-text">Manejo de Productos Quimicos</span>
 								<span class="progress-percent"> 83% </span>
 							</div>
 						</div>
 						<div class="progress thin wow fadeInUp animated" data-wow-delay=".6s">
 							<div class="progress-bar light-blue-bar" role="progressbar" aria-valuenow="71" aria-valuemin="0" data-progress-value="71%" aria-valuemax="100" >
-								<span class="progress-text">e-Commerce</span>
+								<span class="progress-text">Reparacion de Extintores</span>
 								<span class="progress-percent"> 71% </span>
 							</div>
 						</div>
@@ -523,7 +523,7 @@
 								<span aria-hidden="true" class="li_photo"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Designing
+								Asesorias
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -535,7 +535,7 @@
 								<span aria-hidden="true" class="li_bulb"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Developing
+								Capacitaciones
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -559,7 +559,7 @@
 								<span aria-hidden="true" class="li_diamond"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Branding
+								Productos
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -571,7 +571,7 @@
 								<span aria-hidden="true" class="li_params"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Analytics
+								Inspecciones
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -583,7 +583,7 @@
 								<span aria-hidden="true" class="li_phone"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Mobile Apps
+								Plataforma Web
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -595,7 +595,7 @@
 								<span aria-hidden="true" class="li_banknote"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								e-Commerce
+								Servicios
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -607,7 +607,7 @@
 								<span aria-hidden="true" class="li_megaphone"></span>
 							</div><!-- /.service-icon -->
 							<p class="item-title">
-								Support
+								Soporte
 							</p><!-- /.item-title -->
 							<p class="item-description">
 								Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
@@ -764,7 +764,7 @@
 									TopClass is a nice and clean HTML Template to use for multipurpose by Jewel Theme. I am pleased to use this awesome Template on my project.
 								</div><!-- /.client-says -->
 								<div class="clients-details author-bio">
-									<span class="name">Sara Claudia</span>
+									<span class="name">La Cienega</span>
 									<span class="website">
 										<a href="#">www.example-site.com</a>
 									</span>
@@ -1657,7 +1657,7 @@
 			/*------------------- Testimonials Client Slider ----------------------*/
 			var image_array = new Array();
 				image_array = [
-				{image: 'images/testimonials-client/1.jpg'},
+				{image: '{% static "images/clients/cienega.jpg" %}'},
 					// image for the first layer, goes with the text from id="sw0"
 					{image: 'images/testimonials-client/2.jpg'},
 					// image for the second layer, goes with the text from id="sw1"
