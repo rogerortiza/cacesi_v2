@@ -1,7 +1,6 @@
 import datetime
 from django.db import models
 from django.contrib.auth.models import User
-from geoposition.fields import GeopositionField
 
 # Create your models here.
 class Clientes(models.Model):
@@ -28,7 +27,6 @@ class Clientes(models.Model):
 	pagina_web = models.CharField(blank = True, max_length = 140)
 	logo = models.ImageField(blank = True, upload_to = "static/images/logosClientes")
 	usuario = models.OneToOneField(User, blank = True, null=True, on_delete = models.CASCADE )
-	position = GeopositionField(blank = True)
 
 	def __str__(self):
 		return self.nombre
